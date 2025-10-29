@@ -2,3 +2,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --paper: #FFF7F2;      /* crème background */
+  --ink: #2B2B2B;        /* dark text */
+  --muted: #6B6E70;      /* softer gray text */
+  --blush: #FADADD;      /* light pink accent */
+  --rose: #E8B4BC;       /* dusty rose primary */
+  --sage: #C8D3C1;       /* greenish neutral */
+  --blue: #BFD7EA;       /* cornflower highlight */
+  --radius: 14px;
+  --space: 16px;
+}
