@@ -81,22 +81,21 @@ p {
   color: var(--muted);
   font-size: clamp(0.82rem, 1.6vw, 0.95rem);
   margin-bottom: 0.9rem;
-  
+}
 a {
   margin-top: auto;
   align-self: flex-start;
   font-size: clamp(0.78rem, 1.4vw, 0.9rem);
   font-weight: 600;
-  color: #ffffff; /* white default for readability */
+  color: #ffffff; /* white default for better contrast */
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, transform 0.2s ease, color 0.2s ease;
 }
-
 a:hover {
-  border-color: var(--blue); /* underline turns blue */
+  border-color: var(--blue); /* pastel blue underline */
   transform: translateY(-1px);
-  color: var(--blue); /* text turns pastel blue on hover */
+  color: var(--blue); /* link turns blue on hover */
 }
 
 .image1,
@@ -129,3 +128,12 @@ a:hover {
   );
   pointer-events: none;
 }
+
+/*
+@media (max-width: 420px) {
+  .what-we-do {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+}
+*/
