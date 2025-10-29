@@ -40,3 +40,11 @@ main {
   border-bottom: 4px solid var(--sage);
 }
 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(220px, 1fr));
+  gap: 14px;
+  padding: var(--space);
+  margin-bottom: 120px;
+}
+
